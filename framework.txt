@@ -1,0 +1,10 @@
+Snow Day Application
+
+Functionalities:
++Notifiy user of delay, cancelation, etc
+++Input of zipcode
+++Parses html file of news station to check for cancalations every 10 minutes
+++ Returns "No cancelations yet every hour for 24 hours, if snow is in forecast."
+++ Returns cancelation type upon confirmation.
++Snow Day Calculator
++Store local snow day history
