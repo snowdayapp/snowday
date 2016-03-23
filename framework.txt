@@ -7,4 +7,7 @@ Functionalities:
 ++ Returns "No cancelations yet every hour for 24 hours, if snow is in forecast."
 ++ Returns cancelation type upon confirmation.
 +Snow Day Calculator
+++Uses zipcode
+++Uses snow day history
 +Store local snow day history
+++Probably in an XML file.
