@@ -1,4 +1,4 @@
-def zipcodecheck():
+def zipcodecheck() :
 	if zipcode in range(1000, 2792):
 		location = "ma"
 	elif zipcode in range(2801, 2941):
