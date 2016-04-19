@@ -1,5 +1,6 @@
 #Zipcode dictionary
 #NOT DONE
+zipcodedict = {
 544 Holtsville
 601 Adjuntas
 602 Aguada
@@ -42521,3 +42522,4 @@
 99928 Ward Cove
 99929 Wrangell
 99950 Ketchikan
+}

@@ -1,7 +1,7 @@
 #Seperates the location of zipcodes from main file.
 from time import sleep
 
-def zipcodecheck(zipcode) :
+def zipcodecheck(zipcode):
 	if zipcode in range(1000, 2792):
 		url = "ma"
 	elif zipcode in range(2801, 2941):
@@ -22,9 +22,9 @@ def zipcodecheck(zipcode) :
 		url = 'pa'
 	elif zipcode in range(19701, 19980):
 		url = 'de'
-	elif zipcode in range(20001, 20100) or range(20201, 20600):
+	elif zipcode in range(20001, 20100) or zipcode in range(20201, 20600):
 		url = 'dc'
-	elif zipcode in range(20101, 20200) or range(22001, 24659):
+	elif zipcode in range(20101, 20200) or zipcode in range(22001, 24659):
 		url = 'va'
 	elif zipcode in range(20601, 21931):
 		url = 'md'
@@ -40,6 +40,8 @@ def zipcodecheck(zipcode) :
 		url = 'fl'
 	elif zipcode in range(35004, 36926):
 		url = 'al'
+	elif zipcode in range(37010, 38590):
+		url = 'tn'
 	else:
 		print "Invalid Zipcode, exiting in\n"
 		countdown = 3
