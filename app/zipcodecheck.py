@@ -34,7 +34,12 @@ def zipcodecheck(zipcode) :
 		url = 'nc'
 	elif zipcode in range(29001, 29946):
 		url = 'sc'
-	elif zipcode in range(30001,)
+	elif zipcode in range(30001, 32000):
+		url = 'ga'
+	elif zipcode in range(32003, 34998):
+		url = 'fl'
+	elif zipcode in range(35004, 36926):
+		url = 'al'
 	else:
 		print "Invalid Zipcode, exiting in\n"
 		countdown = 3
