@@ -1,3 +1,5 @@
+#Zipcode dictionary
+#NOT DONE
 544 Holtsville
 601 Adjuntas
 602 Aguada
