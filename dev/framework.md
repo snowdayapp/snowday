@@ -2,15 +2,15 @@
 
 ## Functionalities:
 * Notifiy user of delay, cancelation, etc
-** Input of zipcode
-** Parses html file of news station to check for cancalations every 10 minutes
-** Returns "No cancelations yet every hour for 24 hours, if snow is in forecast."
-** Returns cancelation type upon confirmation.
+  * Input of zipcode
+  * Parses html file of news station to check for cancalations every 10 minutes
+  * Returns "No cancelations yet every hour for 24 hours, if snow is in forecast."
+  * Returns cancelation type upon confirmation.
 * Snow Day Calculator
-** Uses zipcode
-** Uses snow day history
+  * Uses zipcode
+  * Uses snow day history
 * Store local snow day history
-** Probably in an python dictionary.
+  * Probably in an python dictionary.
 
 ## Functions:
 * start() - Main screen
