@@ -1,5 +1,6 @@
 #Seperates the location of zipcodes from main file.
 from time import sleep
+import zipcodes
 
 def zipcodecheck(zipcode):
 	if zipcode in range(1000, 2792):
@@ -50,4 +51,5 @@ def zipcodecheck(zipcode):
 			print countdown, "\n"
 			countdown -= 1
 		exit()
-	return url
+	city = zipcodes.zipcodedict[int(zipcode)]
+	return url, city
