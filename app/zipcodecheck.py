@@ -2,7 +2,7 @@
 from time import sleep
 import zipcodes
 
-def zipcodecheck(zipcode):
+def checkzip(zipcode):
 	if zipcode in range(1000, 2792):
 		url = "ma"
 	elif zipcode in range(2801, 2941):
@@ -23,7 +23,7 @@ def zipcodecheck(zipcode):
 		url = 'pa'
 	elif zipcode in range(19701, 19980):
 		url = 'de'
-	elif zipcode in range(20001, 20100) or zipcode in range(20201, 20600):
+	elif zipcode in range(20001, 20100) or zipcode in range(20201, 20600) or zipcode in range(56901, 56973):
 		url = 'dc'
 	elif zipcode in range(20101, 20200) or zipcode in range(22001, 24659):
 		url = 'va'
@@ -43,6 +43,24 @@ def zipcodecheck(zipcode):
 		url = 'al'
 	elif zipcode in range(37010, 38590):
 		url = 'tn'
+	elif zipcode in range(38601, 39777):
+		url = 'ms'
+	elif zipcode in range(39813, 39902):
+		url = 'ga'
+	elif zipcode in range(40003, 42789):
+		url = 'ky'
+	elif zipcode in range(43001, 45600):
+		url = 'oh'
+	elif zipcode in range(46001, 47998):
+		url = 'in'
+	elif zipcode in range(48001, 49972):
+		url = 'mi'
+	elif zipcode in range(50001, 52810):
+		url = 'ia'
+	elif zipcode in range(53001, 54991):
+		url = 'wi'
+	elif zipcode in range(55001, 56764):
+		url = 'mn'
 	else:
 		print "Invalid Zipcode, exiting in\n"
 		countdown = 3
