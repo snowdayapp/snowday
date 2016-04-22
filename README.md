@@ -1,4 +1,5 @@
 #SnowDay
+**_This project has been suspended until further notice due to the inability to get a sample web page to parse._**
 SnowDay is an application I conjured up in late 2015 when I had a classic New England snow day. I had stayed up all night waiting for a news channel update or phone call. Then I thought, "what if instead of checking every 10 minutes, I could be notified?" And SnowDay was born!
 
 ##Forking and Editing
